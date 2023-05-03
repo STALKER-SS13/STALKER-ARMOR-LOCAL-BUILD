@@ -3,7 +3,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 
 /obj/item/stalker_pda
 	name = "PDA"
-	desc = "A portable device, used to communicate with other stalkers."
+	desc = "A PDA, or Portable Data Assistant. Used in the zone as a medium to communicate with other stalkers, view data, maps or encyclopedia. Dont loose this one!"
 	icon = 'stalker/icons/device_new.dmi'
 	icon_state = "kpk_off"
 	item_state = "kpk"
@@ -56,12 +56,12 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 	//ФРАКЦИЯ
 	var/last_invite = 0
 
-	//РЕЙТИНГ
+	//RATING
 	var/sortBy = "rating"
 	var/order = 1
 	var/lastlogin = 0
 
-	//ЭНЦИКЛОПЕДИЯ
+	//ENCYCLOPEDIA
 	var/article_title = "Zone"
 	var/article_text = "The Zone of Alienation is the 60 km wide area of exclusion that was set up around the Chernobyl NPP following the 1986 disaster and extended by the second Chernobyl disaster in 2006."
 	var/article_img = "nodata.gif"
@@ -70,7 +70,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 
 /datum/asset/simple/encyclopedia
 	assets = list(
-		//Фото для энциклопедии
+		//Encyclopedia Photos
 		"zone"					= 'stalker/icons/images/zone.png',
 		"backwater"				= 'stalker/icons/images/backwater.jpg',
 		"nodata.gif"			= 'stalker/icons/images/nodata.gif'
@@ -81,7 +81,7 @@ GLOBAL_VAR_INIT(global_lentahtml, "")
 		"kpk_background.png"	= 'stalker/icons/images/kpk.png',
 		"nodata.png"			= 'stalker/icons/images/nodata.png',
 		"photo_0"				= 'stalker/icons/images/sidor.png'
-		//Курсоры
+		//Cursor
 	)
 
 /datum/asset/simple/cursors

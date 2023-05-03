@@ -5,15 +5,15 @@
 
 /obj/item/stalker/docs
 	icon_state = "docs0"
-	name = "documents"
-	desc = "Old documents. Trader may pay a big price for this."
+	name = "Rusty Documents"
+	desc = "Old documents. Contains some strange research context. Ecologists could be interested."
 
 /obj/item/stalker/usb
 	icon_state = "USB"
-	name = "USB"
-	desc = "Blue USB 2 Gb. Trader may pay a big price for this."
+	name = "USB Drive"
+	desc = "Blue USB without any information. Who knows what is inside? Traders might be interested in this. "
 
 /obj/item/stalker/blue_box
 	icon_state = "blue_box"
-	name = "box"
-	desc = "Closed blue blox. Trader may pay a big price for this."
+	name = "Strange Blue Box"
+	desc = "Closed blue blox. It is rugged and wont open. Traders might be interested in this."
